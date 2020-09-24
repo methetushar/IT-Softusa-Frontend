@@ -1,0 +1,98 @@
+
+.timer {
+    margin: 0 0 45px;
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+.timer div {
+    padding: 10px;
+    display: inline-block;
+    font-family: Oswald;
+    font-weight: 400;
+    width: 120px;
+    height: 70px;
+    /*background: #193d5c;*/
+    font-size: 71px;
+    line-height: 52px;
+    background: red;
+    position: relative;
+}
+
+.timer .smalltext {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 500;
+    display: block;
+    padding: 0;
+    width: auto;
+}
+.timer #time-up {
+    margin: 8px 0 0;
+    text-align: left;
+    font-size: 14px;
+    font-style: normal;
+    color: #000000;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.searchbar {
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 44px;
+    background-color: #09325b;
+    border-radius: 30px;
+    padding: 0px;
+}
+
+.search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+}
+.searchbar:hover > .search_input {
+    padding: 0 10px;
+    width: 188px;
+    caret-color: red;
+    transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+}
+
+.search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+}
+
+/*.counterDay{*/
+/*    background: #2ad712;*/
+/*}*/
+/*.counterHours {*/
+/*    background: #fcc301;*/
+/*}*/
+/*.counterMinutes{*/
+/*    background: #00253f;*/
+/*}*/
+/*.counterSeconds {*/
+/*    background: #d71212;*/
+/*}*/
+
